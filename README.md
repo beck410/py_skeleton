@@ -18,7 +18,9 @@ renamed to project's main module
 ###tests
 to run tests type ```nosetests``` from root folder
 ##Initial Files
-NAME/__init__.py
-tests/__init__.py
-tests/NAME_tests.py
-setup.py
+###NAME/__init__.py
+###tests/__init__.py
+###tests/NAME_tests.py
+###setup.py
+describes module distribution to Distutils so various commands that operate on your module do the right things 
+package option: tells Distutils to process (build, distribute, install) pure python modules found in package list
